@@ -62,3 +62,20 @@ Name the vm windowsvm and put it in East US 2 and I'm going to choose the window
 <img src="/images/step4a.png" >
 </details>
 
+Choose a username that's easy to remember for the lab or just make sure to open a notepad and save your credentials so you don't forget
+
+<details><summary>See screenshots</summary>
+<img src="/images/step7.png" >
+</details>
+
+Next we're going to go to the network tab and make a new vnet called lab1vnet
+
+<details><summary>See screenshots</summary>
+<img src="/images/step8.png" >
+</details>
+
+Now we're through with the configuration and we can continue to review & create
+
+<details><summary>See screenshots</summary>
+<img src="/images/step9.png" >
+</details>
