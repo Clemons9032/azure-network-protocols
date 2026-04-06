@@ -10,6 +10,16 @@ This is a quick tutorial demonstrating the uses of wireshark and how to analyze 
 
 - ### [Youtube: Analyzing network traffic] (https://www.youtube.com)
 
-  <h2>Environments and Technologies used
+<h2>Environments and Technologies used
 
+[![My Skills](https://skillicons.dev/icons?i=azure)](https://skillicons.dev)
+
+- Microsoft Azure
+- Remote Desktop Protocol
+- DHCP
+- SSH
+
+<h2>Operating Systems Used </h2>
+
+[![My Skills](https://skillicons.dev/icons?i=windows,ubuntu)](https://skillicons.dev)
   
