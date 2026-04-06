@@ -92,3 +92,34 @@ For the authentication, I'm going to choose password instead of ssh key
 <details><summary>See screenshots</summary>
 <img src="/images/step11.png" >
 </details>
+
+Next make sure to choose the same vnet as the windowsvm and afterwards, we can review and create the linuxvm
+
+<details><summary>See screenshots</summary>
+<img src="/images/step12.png" >
+</details>
+
+<details><summary>See screenshots</summary>
+<img src="/images/step13.png" >
+</details>
+
+<h3>Step4. Windows deployment</h3>
+In order to rdp into the windowsvm i have to get the public ip address. Click on the windowsvm and the public ip address will be on the overview page.
+
+<details><summary>See screenshots</summary>
+<img src="/images/step14.png" >
+</details>
+
+After getting the public ip address, press win+r and type in mstsc to open the rdp connection tab. Enter your public ip address for the windows vm and the password and you'll be connected to the windows vm
+
+<details><summary>See screenshots</summary>
+<img src="/images/step15.png" >
+</details>
+
+<details><summary>See screenshots</summary>
+<img src="/images/step16.png" >
+</details>
+
+
+
+
