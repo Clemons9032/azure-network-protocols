@@ -79,3 +79,16 @@ Now we're through with the configuration and we can continue to review & create
 <details><summary>See screenshots</summary>
 <img src="/images/step9.png" >
 </details>
+
+<h3>Step3.Create a linuxvm for deployment</h3>
+Go to the virtual machine tab and click create new vm. We're going to use the same configuration as the windows10 vm with same resource group and virtual network.
+
+<details><summary>See screenshots</summary>
+<img src="/images/step10.png" >
+</details>
+
+For the authentication, I'm going to choose password instead of ssh key
+
+<details><summary>See screenshots</summary>
+<img src="/images/step11.png" >
+</details>
