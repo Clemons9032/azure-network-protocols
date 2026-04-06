@@ -1,7 +1,13 @@
 <p align="center">
 <img src=images/Remote-Desktop-Protocol-RDP-vs-Secure-Shell-SSH-Protocol.jpg
 
+
+
+
+<p align="center">
+ <img src=images/DHCP.webp alt="Description">
 </p>
+
 
 <h1>networkprotocols - Prerequisites and Installation</h1>
 This is a quick tutorial demonstrating the uses of wireshark and how to analyze network traffic using different protocols within an VM
