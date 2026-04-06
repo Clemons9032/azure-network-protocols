@@ -46,12 +46,19 @@ Expand the See screenshots section to view the images
 Log into the azure portal and click on virtual machines and select create new. I'm going to name the VM Windows10.
 
 <details><summary>See screenshots</summary>
-<img src="/images/step1.png" >
+<img src="/images/create-newvm.png" >
 </details>
 
 <h3>Step 2. Configure windows 10 vm for deployment</h3>
 The resource group that i created is called RG-NetworkActivities. Both VM's will need to be in this resource group for the lab. 
 
 <details><summary>See screenshots</summary>
-<img src="/images/step1..png" >
+<img src="/images/step2a.png" >
 </details>
+
+Name the vm windowsvm and put it in East US 2 and I'm going to choose the windows 10 enterprise image 
+
+<details><summary>See screenshots</summary>
+<img src="/images/step2a.png" >
+</details>
+
