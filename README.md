@@ -120,6 +120,16 @@ After getting the public ip address, press win+r and type in mstsc to open the r
 <img src="/images/step16.png" >
 </details>
 
+<details><summary>See screenshots</summary>
+<img src="/images/step17.png" >
+</details>
+
+<h3>Step3. Installing Wireshark</h3>
+After connecting with your vm, you'll see some prompts from windows. You can say no to all of those prompts until you reach the GUI. After landing on the desktop, go to microsoft edge and type in wireshark. Once you land on the wireshark home page, choose the download button and depending on which architecture you're running, download the correct version.
+
+<details><summary>See screenshots</summary>
+<img src="/images/step15.png" >
+</details>
 
 
 
