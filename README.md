@@ -1,4 +1,5 @@
-# azure-network-protocols
+<p align="center">
+<img src=images/Remote-Desktop-Protocol-RDP-vs-Secure-Shell-SSH-Protocol.jpg
 
 </p>
 
