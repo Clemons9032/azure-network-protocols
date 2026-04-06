@@ -124,12 +124,84 @@ After getting the public ip address, press win+r and type in mstsc to open the r
 <img src="/images/step17.png" >
 </details>
 
-<h3>Step3. Installing Wireshark</h3>
+<details><summary>See screenshots</summary>
+<img src="/images/step18.png" >
+</details>
+
+<h3>Step5. Installing Wireshark</h3>
 After connecting with your vm, you'll see some prompts from windows. You can say no to all of those prompts until you reach the GUI. After landing on the desktop, go to microsoft edge and type in wireshark. Once you land on the wireshark home page, choose the download button and depending on which architecture you're running, download the correct version.
 
 <details><summary>See screenshots</summary>
-<img src="/images/step15.png" >
+<img src="/images/step19.png" >
 </details>
 
+
+
+<details><summary>See screenshots</summary>
+<img src="/images/step20.png" >
+</details>
+
+<details><summary>See screenshots</summary>
+<img src="/images/step21.png" >
+</details>
+
+<details><summary>See screenshots</summary>
+<img src="/images/step22.png" >
+</details>
+
+<details><summary>See screenshots</summary>
+<img src="/images/step23.png" >
+</details>
+
+
+<details><summary>See screenshots</summary>
+<img src="/images/step24.png" >
+</details>
+
+<details><summary>See screenshots</summary>
+<img src="/images/step25.png" >
+</details>
+
+<details><summary>See screenshots</summary>
+<img src="/images/step26.png" >
+</details>
+
+<details><summary>See screenshots</summary>
+<img src="/images/step27.png" >
+</details>
+
+<details><summary>See screenshots</summary>
+<img src="/images/step28.png" >
+</details>
+
+<details><summary>See screenshots</summary>
+<img src="/images/step29.png"
+</details>
+
+<details><summary>See screenshots</summary>
+<img src="/images/step31.png" >
+</details>
+
+<details><summary>See screenshots</summary>
+<img src="/images/step32.png" >
+</details>
+
+<h3>Step5.Open Wireshark</h3>
+After installation, go to the start button and type in wireshark to open. After it's open, choose the ethernet button and it'll take you to the network analyzer.
+
+<details><summary>See screenshots</summary>
+<img src="/images/step33.png" >
+</details>
+
+<details><summary>See screenshots</summary>
+<img src="/images/step34.png" >
+</details>
+
+<h3>Step6. Analyzing network traffic using various protocols</h3>
+After the network analyzer opens up, we can see a bunch of data currently shifting through the network. Even though the only thing I've done is just open wireshark, I can see my network is very active. So the first protocol to use is icmp which is short for ping. Head to the search bar above the network information and type icmp to filter the traffic to just icmp data.
+
+<details><summary>See screenshots</summary>
+<img src="/images/step35.png" >
+</details>
 
 
