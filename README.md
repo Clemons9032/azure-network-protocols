@@ -59,6 +59,6 @@ The resource group that i created is called RG-NetworkActivities. Both VM's will
 Name the vm windowsvm and put it in East US 2 and I'm going to choose the windows 10 enterprise image 
 
 <details><summary>See screenshots</summary>
-<img src="/images/step2a.png" >
+<img src="/images/step4a.png" >
 </details>
 
