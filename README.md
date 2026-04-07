@@ -188,7 +188,7 @@ After connecting with your vm, you'll see some prompts from windows. You can say
 <img src="/images/step32.png" >
 </details>
 
-<h3>Step5.Open Wireshark</h3>
+<h3>Step6.Open Wireshark</h3>
 After installation, go to the start button and type in wireshark to open. After it's open, choose the ethernet button and it'll take you to the network analyzer.
 
 <details><summary>See screenshots</summary>
@@ -199,7 +199,7 @@ After installation, go to the start button and type in wireshark to open. After 
 <img src="/images/step34.png" >
 </details>
 
-<h3>Step6. Analyzing network traffic using various protocols</h3>
+<h3>Step7. Analyzing network traffic using various protocols</h3>
 After the network analyzer opens up, we can see a bunch of data currently shifting through the network. Even though the only thing I've done is just open wireshark, I can see my network is very active. So the first protocol to use is icmp which is short for ping. Head to the search bar above the network information and type icmp to filter the traffic to just icmp data.
 
 <details><summary>See screenshots</summary>
@@ -255,6 +255,15 @@ On the add inbound security rule, go to the destination port ranges and type *. 
 </details>
 
 After configuring this firewall, we can start to see the changes take effect immediately. Looking in the terminal, we can start to see the ping time out as the linux client can no longer reached. We can start to see a lot of request timed out messages and it'll continue in perpetuity until this rule is either deleted or the priority has been lowered.
+
+Now we're going to delete the firewall rule and once that happens, we can see that communication to the client starts up rather quickly.
+
+<details><summary>See screenshots</summary>
+<img src="/images/step48.png" >
+</details>
+
+After analyzing firewall rules, I'm going to analyze ssh traffic. Clear the filter and type ssh in the search bar and restart the packet capture. Next go back into azure and get the private ip address to the linux vm. Copy down the ip address and go back into the windows vm and go back to powershell. To ssh into the linux vm
+type ssh username@private-ipaddress. In my case, I'm going to enter ssh basheddaemon@10.0.0.6. You'll be prompted to enter your password and after that you'll be connected to the linux vm via a terminal. Enter a few commands to see how the traffic works in regards to ssh commands compared to when a ping is initiated.
 
 
 
