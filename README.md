@@ -32,8 +32,10 @@ This is a quick tutorial demonstrating the uses of wireshark and how to analyze 
 
 <h2>List of Prerequisites</h2>
 
-Virtual Machines
+-Virtual Machines
+
 -wireshark.exe
+
 -Azure Account
   
 <h2>High-Level Deployment and Installation</h2>
@@ -203,5 +205,61 @@ After the network analyzer opens up, we can see a bunch of data currently shifti
 <details><summary>See screenshots</summary>
 <img src="/images/step35.png" >
 </details>
+
+<details><summary>See screenshots</summary>
+<img src="/images/step37.png" >
+</details>
+
+After changing protocols, press the start button and open up powershell. From here I'm going to ping google.com and the linux vm that was created. type the following command ping www.google.com to see my vm attempt to establish a connection with google.com.
+
+<details><summary>See screenshots</summary>
+<img src="/images/step38.png" >
+</details>
+
+we can see the reply from google.com sending back to the client. That's a good sign because that shows a proper network connectivity between our client and google. Next is to ping the linux vm and check if we have a proper connection to the linux client. Go back to azure and get the private ip address and that's what will be used to attempt a connection with linux
+
+<details><summary>See screenshots</summary>
+<img src="/images/step39.png" >
+</details
+
+<details><summary>See screenshots</summary>
+<img src="/images/step40.png" >
+</details>
+
+I'm going to start up a continuous ping so I can see what happens when a firewall restriction is put in place while a perpetual ping is established. In order to start a perpetual ping, go back to powershell and type ping -t 10.0.0.5 and that'll initiate the continuous ping.
+
+<details><summary>See screenshots</summary>
+<img src="/images/step41.png" >
+</details>
+
+I'm going to set some firewall permissions to further see what happens in wireshark when a firewall is in place for a particular client. Go back into azure and click the linux vm. After it's selected, go to the network settings tab and scroll down to the network security group.
+
+<details><summary>See screenshots</summary>
+<img src="/images/step42.png" >
+</details>
+
+<details><summary>See screenshots</summary>
+<img src="/images/step43.png" >
+</details>
+
+In order to set up the firewall, I'm going to click on create port rule and select inbound port rule.
+
+<details><summary>See screenshots</summary>
+<img src="/images/step45.png" >
+</details>
+
+On the add inbound security rule, go to the destination port ranges and type *. This is a stand in for any. Next is to select the protocol ICMPv4. Ping command uses the protocol to establish a connection with different servers and clients. Next, choose deny to block all incoming traffic from making a connection with the linux server. For the priority, I'm going to type in 290. So the reason for the number is the lower the number, the higher the priority and it'll take precedence over the SSH protocol in place.
+
+<details><summary>See screenshots</summary>
+<img src="/images/step47.png" >
+</details>
+
+After configuring this firewall, we can start to see the changes take effect immediately. Looking in the terminal, we can start to see the ping time out as the linux client can no longer reached. We can start to see a lot of request timed out messages and it'll continue in perpetuity until this rule is either deleted or the priority has been lowered.
+
+
+
+
+
+
 
 
