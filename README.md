@@ -291,7 +291,19 @@ So the next protocol to analyze is DHCP. So during this section, I had a problem
 </details>
 
 > [!Important]
-> For this step, It's imperative to make a script because in order to fully utilize DHCP in this instance, we need to tell the computer to request a ip address immediately after the ip address has been dropped but it can't do that on the vm because it'll just crash without a way to reach the DHCP server. Open a notepad and type ipconfig /release then on the second line type ipconfig /renew and save that file as a .bat file. 
+> For this step, It's imperative to make a script because in order to fully utilize DHCP in this instance, we need to tell the computer to request a ip address immediately after the ip address has been dropped but it can't do that on the vm because it'll just crash without a way to reach the DHCP server. Open a notepad and type ipconfig /release then on the second line type ipconfig /renew and save that file as a .bat file.
+
+
+
+<details><summary>See screenshots</summary>
+<img src="SSH/SSH_Step12.png" >
+</details>
+
+
+<details><summary>See screenshots</summary>
+<img src="SSH/SSH_Step13.png" >
+</details>
+
 
 
 
