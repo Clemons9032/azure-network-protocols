@@ -304,6 +304,18 @@ So the next protocol to analyze is DHCP. So during this section, I had a problem
 <img src="SSH/SSH_Step13.png" >
 </details>
 
+<details><summary>See screenshots</summary>
+<img src="SSH/SSH_Step14.png" >
+</details>
+
+The last protocol that i'm going to analyze is DNS using nslookup. Go back into powershell. Type nslookup disney.com and it'll give us the ip address that disney uses. Once we receive the ip address type into microsoft edge and it won't take us to the webpage but it'll show us a 404 error but how it's presented you can tell that it's disney domain.
+
+<details><summary>See screenshots</summary>
+<img src="SSH/SSH_Step11.png" >
+</details>
+
+
+
 
 
 
