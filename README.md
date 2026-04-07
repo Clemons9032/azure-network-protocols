@@ -273,6 +273,14 @@ type ssh username@private-ipaddress. In my case, I'm going to enter ssh bashedda
 <img src="SSH/ssh_Step2.png" >
 </details>
 
+The key difference between ping and ssh in regards to network analysis is that when we're ssh into a terminal, we'll really only see data flowing once an command is issued but with an RDP connection, data is constantly moving through the connection and that's because it needs a steady flow of data no matter how relevant the data is so that the connection can stay active at all times where ssh is through a terminal so that connection is already secured.
+
+So the next protocol to analyze is DHCP. So during this section, I had a problem with my vm breaking but the problem was when attempting to ipconfig /release, the vm drops the ip address but the problem with that is the vm doesn't know to request a new ip address so i'm stuck with a vm that can't connect back to the internet because it has no way to reach the DHCP server without writing a script. 
+
+<details><summary>See screenshots</summary>
+<img src="SSH/SSH_Step4.png" >
+</details>
+
 
 
 
