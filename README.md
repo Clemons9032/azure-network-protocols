@@ -265,6 +265,17 @@ Now we're going to delete the firewall rule and once that happens, we can see th
 After analyzing firewall rules, I'm going to analyze ssh traffic. Clear the filter and type ssh in the search bar and restart the packet capture. Next go back into azure and get the private ip address to the linux vm. Copy down the ip address and go back into the windows vm and go back to powershell. To ssh into the linux vm
 type ssh username@private-ipaddress. In my case, I'm going to enter ssh basheddaemon@10.0.0.6. You'll be prompted to enter your password and after that you'll be connected to the linux vm via a terminal. Enter a few commands to see how the traffic works in regards to ssh commands compared to when a ping is initiated.
 
+<details><summary>See screenshots</summary>
+<img src="SSH/ssh_step1.png" >
+</details>
+
+<details><summary>See screenshots</summary>
+<img src="SSH/ssh_Step2.png" >
+</details>
+
+
+
+
 
 
 
